@@ -18,21 +18,21 @@ Text Domain:  yellow-pelican
 	border: 3px dashed #aaa !important;
 	padding: 5px 20px 15px 20px !important;
 	border-radius: 5px;
-	background: #fff;
+	background: #000;
 }
 
 .gform_wrapper .field_sublabel_above .description, .gform_wrapper .field_sublabel_above .gfield_description, .gform_wrapper .field_sublabel_above .gsection_description {
     margin-top: 0px !important;
 }
 .gform_wrapper .field_description_below .gfield_description {
-    padding-top: 0px !important;
+    padding-top: 0px;
 }
 .gform_wrapper .field_description_below #gfield_description_1_14 {
 	margin-top: -24px !important;
 }
 .gform_wrapper .gform_fileupload_multifile .gform_drop_area {
 	padding: 10px 24px !important;
-	border: 2px dashed #aaa !important;
+	border: 2px dashed #bbb !important;
 }
 
 @media only screen and (min-width: 641px) {
