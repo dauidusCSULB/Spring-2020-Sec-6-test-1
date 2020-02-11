@@ -10,7 +10,9 @@ Text Domain:  yellow-pelican
 
 /* Write here your own personal stylesheet */
 
-
+/**
+ * Extraneous comments
+**/
 
 #gform_wrapper_1 {
 	border: 3px dashed #aaa !important;
