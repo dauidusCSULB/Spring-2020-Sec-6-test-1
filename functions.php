@@ -10,10 +10,10 @@ Note: this function loads the parent stylesheet before, then child theme stylesh
 
 
 function yellow_pelican_enqueue_child_styles() {
-$parent_style = 'parent-style'; 
+$parent_style = 'parent-style';
 	wp_enqueue_style($parent_style, get_template_directory_uri() . '/style.css' );
-	wp_enqueue_style( 
-		'child-style', 
+	wp_enqueue_style(
+		'child-style',
 		get_stylesheet_directory_uri() . '/style.css',
 		array( $parent_style ),
 		wp_get_theme()->get('Version') );
@@ -21,3 +21,7 @@ $parent_style = 'parent-style';
 add_action( 'wp_enqueue_scripts', 'yellow_pelican_enqueue_child_styles' );
 
 /*Write here your own functions */
+
+// eventually, we'll make it so only users can see certain content on the site
+//
+// let's also make it so...
