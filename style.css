@@ -10,15 +10,7 @@ Text Domain:  yellow-pelican
 
 /* Write here your own personal stylesheet */
 
-.nav-aligned-right .main-navigation ul, 
-.nav-aligned-center .main-navigation ul {
-    letter-spacing: 0em !important;
-}
 
-.sticky-enabled .main-navigation.is_stuck {
-    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
-    background: rgba(0,0,0,.75);
-}
 
 #gform_wrapper_1 {
 	border: 3px dashed #aaa !important;
