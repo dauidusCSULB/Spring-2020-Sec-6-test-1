@@ -1,0 +1,48 @@
+/*
+Theme Name:   Yellow Pelican
+Description:  child theme of GeneratePress
+Author:       Dave Winter
+Author URL:   https://dauid.us
+Template:     generatepress
+Version:      1.0
+Text Domain:  yellow-pelican
+*/
+
+/* Write here your own personal stylesheet */
+
+.nav-aligned-right .main-navigation ul, 
+.nav-aligned-center .main-navigation ul {
+    letter-spacing: 0em !important;
+}
+
+.sticky-enabled .main-navigation.is_stuck {
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    background: rgba(0,0,0,.75);
+}
+
+#gform_wrapper_1 {
+	border: 3px dashed #aaa !important;
+	padding: 5px 20px 15px 20px !important;
+	border-radius: 5px;
+	background: #fff;
+}
+
+.gform_wrapper .field_sublabel_above .description, .gform_wrapper .field_sublabel_above .gfield_description, .gform_wrapper .field_sublabel_above .gsection_description {
+    margin-top: 0px !important;
+}
+.gform_wrapper .field_description_below .gfield_description {
+    padding-top: 0px !important;
+}
+.gform_wrapper .field_description_below #gfield_description_1_14 {
+	margin-top: -24px !important;
+}
+.gform_wrapper .gform_fileupload_multifile .gform_drop_area {
+	padding: 10px 24px !important;
+	border: 2px dashed #aaa !important;
+}
+
+@media only screen and (min-width: 641px) {
+	.gform_wrapper .left_label input.large, .gform_wrapper .left_label select.large, .gform_wrapper .left_label textarea.large, .gform_wrapper .left_label textarea.medium, .gform_wrapper .left_label textarea.small, .gform_wrapper .right_label input.large, .gform_wrapper .right_label select.large, .gform_wrapper .right_label textarea.large, .gform_wrapper .right_label textarea.medium, .gform_wrapper .right_label textarea.small {
+	    width: 100% !important;
+	}
+}
