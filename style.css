@@ -30,9 +30,10 @@ Text Domain:  yellow-pelican
 .gform_wrapper .field_description_below #gfield_description_1_14 {
 	margin-top: -24px !important;
 }
+/* Doubled random values */
 .gform_wrapper .gform_fileupload_multifile .gform_drop_area {
-	padding: 10px 24px !important;
-	border: 2px dashed #aaa !important;
+	padding: 20px 48px !important;
+	border: 4px dashed #aaa !important;
 }
 
 @media only screen and (min-width: 641px) {
